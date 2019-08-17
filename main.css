@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  /*--- navigation bar ---*/
+  .navbar {
+    margin: 100px 180px;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+  
+  }
+  .navbar-brand:hover{
+    color: rgb(77, 77, 77);
+    text-decoration: underline;
+    text-decoration-color: #333;
+  }
+
+  .nav-link {
+    margin-right: 1em !important;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: rgb(77, 77, 77);
+  }
+
+  hr{
+    margin: 30px 180px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header {
+    background-image: url(1.jpg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat:no-repeat;
+  }
+
+  .heading_left {
+    font-weight:300;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    color:rgb(77, 77, 77)
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .description{
+    font-size: 16px;
+    padding-top: 30px;
+    margin-left: 60px;
+    color: rgb(77, 77, 77);
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .button{
+    padding: 15px 30px;
+    margin: 20px 0px;
+    background-color: white;
+    color: rgb(77, 77, 77);
+    border: none;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .button:hover{
+    color:rgb(121, 121, 121);
+    size: 80px;
+  }
+
+  .heading_usual{
+    font-size: 20px;
+    font-weight:200;
+    padding-top: 30px;
+    padding-left: 140px;
+    font-family: 'Thasadith', sans-serif;
+
+  }
+
+  .container{
+    font-family: 'Thasadith', sans-serif;
+  }
+
+img{
+  padding-top:40px;
+}
+  .left{
+    padding-left:40px;
+    font-size: 16px;
+  }
+
+  .date{
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .right{
+    padding-right:40px;
+  }
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
