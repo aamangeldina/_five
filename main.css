@@ -3,10 +3,14 @@ body {
     margin: 0;
     font-family: 'Thasadith', sans-serif;
   }
+  #page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
 
   /*--- navigation bar ---*/
   .navbar {
-    margin: 100px 180px;
+    margin: 100px 0px;
     font-family: 'Thasadith', sans-serif;
   }
 
@@ -31,7 +35,7 @@ body {
   }
 
   hr{
-    margin: 30px 180px;
+    margin: 40px 0px;
   }
 
   .navbar-collapse {
@@ -40,7 +44,7 @@ body {
 
   .header {
     background-image: url(1.jpg);
-    background-size: 70%;
+    background-size: 100%;
     background-position: center;
     background-repeat:no-repeat;
   }
@@ -50,7 +54,6 @@ body {
     font-size: 45px;
     text-align: left;
     padding-top: 30px;
-    padding-left: 40px;
     color:rgb(77, 77, 77)
     font-family: 'Thasadith', sans-serif;
   }
@@ -58,7 +61,6 @@ body {
   .description{
     font-size: 16px;
     padding-top: 30px;
-    margin-left: 60px;
     color: rgb(77, 77, 77);
     font-family: 'Thasadith', sans-serif;
   }
